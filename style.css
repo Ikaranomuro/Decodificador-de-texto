@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Fonts*/
+    font-size: 62.5%
+        /*1rem = 10px*/
+    ;
+    /*inter{
+   font-family: "Inter", sans-serif;
+   font-weight: <weight>;
+}*/
+    --darkBlue100: #609ED4;
+    --darkBlue200: #358EA9;
+    --darkBlue300: #0A3871;
+    --darkBlue400: #072B61;
+    --darkBlue500: #052051;
+    --gray100: #CED4DA;
+    --gray200: #ADB5BD;
+    --gray300: #868E96;
+    --gray400: #495057;
+    --gray500: #343A40;
+    --ligthBlue100: #F3F5FC;
+    --ligthBlue200: #EFF1FA;
+    --ligthBlue300: #E9ECF8;
+    --ligthBlue400: #AAB2D5;
+    --ligthBlue500: #757FB2;
+
+}
+
+::-webkit-input-placeholder {
+    color: var(--darkBlue300);
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: var(--darkBlue300);
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--darkBlue300);
+}
+
+:-ms-input-placeholder {
+    color: var(--darkBlue300);
+}
+
+body {
+    background-color: var(--ligthBlue100);
+}
+
+header {
+    width: 100%;
+}
+
+.header__logoAlura {
+    padding: 4rem 0rem 0rem 4rem;
+}
+
+section {
+    width: 50%;
+}
+
+section .section__inputText {
+    font-size: 3.2rem;
+    font-family: "Inter", sans-serif;
+    color: var(--darkBlue300);
+    margin: 8rem 0rem 0rem 24rem;
+    background-color: (var(--ligthBlue100));
+    border: 0 none;
+    outline: 0;
+    resize: none;
+   
+}
+
+.section__inputText::placeholder {
+    white-space:pre;
+    overflow-wrap: wrap;
+    overflow-y: visible;
+    line-height: 400px;
+    /* new style */
+}
+
+.section__alert {
+    display: flex;
+    align-items: center;
+    padding: 8rem 0rem 0rem 24rem;
+
+
+}
