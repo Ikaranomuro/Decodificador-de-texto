@@ -15,17 +15,14 @@
 
     <main>
     <header>
-        <img src="./Assets/IconAlura.png" alt="Pequeno logo da empresa Alura, especializada em diversos cursos de tecnologia" class="header__logoAlura">
     </header>
 
         <section class="main__section__fill">
-            <div>
-                <!-- <input type="text" placeholder="Digite seu texto" class="section__inputText" size="40" maxlength="40"> -->
-                <textarea name="text" class="section__inputText" id="text" rows="14" cols="38" maxlength="403" placeholder="Escreva aqui"></textarea>
-                <div class="section__alert">
-                    <img src="/Assets/bi_exclamation-circle-fill.png" alt="">
-                    <h6>Apenas letras minúsculas e sem acento.</h6>
-                </div>
+            <textarea name="text" class="section__inputText" id="text" rows="8" cols="40" maxlength="180" placeholder="Escreva aqui"></textarea>
+          
+            <div class="section__alert">
+                <img src="./Assets/bi_exclamation-circle-fill.png" alt="">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
             </div>
             <div class="main__div__encrypt">
                 <button onclick="criptografar()">Criptografar</button>
@@ -34,16 +31,17 @@
         </section>
         
         <aside>
-            <section class="aside__section">
-                <img src="./Assets/Person.svg" alt="" class="aside__Person_image">
                 <div class="aside__encrypted_message">
+                    <img src="./Assets/Person.svg" alt="" class="aside__Person_image">
                     <h2>Nenhuma mensagem encontrada</h2>
                     <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-                    <button onclick="copiar()">copiar</button>
+                    <p class="text_encrypted"></p>
+                    <button onclick="copiar()" class="button_Copy">copiar</button>
                 </div>
-            </section>
+           
         </aside>
     </main>
 </body>
 
+<script src="./script.js"></script>
 </html>

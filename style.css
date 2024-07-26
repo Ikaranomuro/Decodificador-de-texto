@@ -60,19 +60,26 @@ body {
     background-color: var(--ligthBlue100);
 }
 
+/*=====================MAIN======================*/
+main{
+    display: flex;
+}
+
 /*=====================HEADER======================*/
 header{
-    width: 10rem;
+    width: 12rem;
+    height: 4.8rem;
+    background-image:url("./Assets/IconAlura.png");
+    background-repeat: no-repeat;
+    display: block;
+    margin: 4rem 0rem 0rem 4rem;
 }
 
 .header__logoAlura {
     padding: 4rem 0rem 0rem 4rem;
 }
 
-/*=====================MAIN======================*/
-main{
-    display: flex;
-}
+
 
 /*=====================SECTION======================*/
 .main__section__fill{
@@ -97,7 +104,9 @@ section .section__inputText {
     align-items: center;
     padding: 8rem 0rem 0rem 24rem;
     gap:0.8rem;
+    margin-top: 20rem;
 }
+
 
 .section__alert h6{
     font-size: 1.2rem;
@@ -151,31 +160,23 @@ aside{
     justify-content: space-around;
     align-items: center;
     padding: 4rem 0rem 0rem 0rem;
-    
+    word-wrap: break-word;
    
 }
 
-.aside__section{
-    width: 40rem;
-    height: 86rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.aside__encrypted_message{
     box-shadow: 0px 10px 10px 2px var(--gray100);
     border-radius: 3.2rem;
     background-color:var(--white);
     padding-inline: 3.2rem;
     text-align: center;
-}
-
-.aside__section img{
-    margin-top: 20rem;
-}
-
-.aside__encrypted_message{
-    display: flex;
-    flex-direction: column;
+    width: 40rem;
+    height: 86rem;
     gap: 1.6rem;
+}
+
+.aside__encrypted_message img{
+    margin-top: 20rem;
 }
 
 .aside__encrypted_message h2{
@@ -214,3 +215,129 @@ aside{
     display: initial;
 
 }
+
+.aside__encrypted_message .text_encrypted_box{
+    width: 100%;
+    height: 100%;
+    text-align: start;
+}
+
+.aside__encrypted_message .text_encrypted{
+    padding: 3.2rem;
+}
+
+@media (max-width:1024px){
+/*=====================MAIN======================*/
+main{
+    flex-direction: column;
+    
+}
+
+/*=====================SECTION======================*/
+.main__section__fill{
+    padding-top: 6.8rem;
+    width: 100%;
+}
+
+section .section__inputText {
+    margin: 0rem 0rem 0rem 4rem;
+    background-color: (var(--ligthBlue100));
+}
+
+.section__alert {
+    padding: 8rem 0rem 0rem 4rem;
+    gap:0.8rem;
+}
+
+/*=====================DIV_ENCRYPT======================*/
+.main__div__encrypt{
+    padding: 0rem 0rem 0rem 4rem;
+}
+
+/*=====================ASIDE======================*/
+aside{
+    width: 100%;
+    padding: 4rem 0rem 0rem 0rem;
+   
+}
+
+.aside__encrypted_message{
+    width: 68.8rem;
+    padding: 3.2rem 3.2rem 3.2rem 3.2rem;
+    height: 20rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.aside__encrypted_message img{
+    display: none;
+}
+
+.aside__encrypted_message .text_encrypted{
+    word-wrap: break-word;
+}
+
+}
+
+@media (max-width:765px){
+
+/*=====================HEADER======================*/
+header{
+    width: 3.2rem;
+    background-image:url("./Assets/Top.png");
+    background-repeat: no-repeat;
+    margin: 4rem 0rem 0rem 1.6rem;
+    display: block;
+};
+
+.header__logoAlura {
+    padding-inline: 1.6rem;   
+}
+  /*=====================SECTION======================*/
+section .section__inputText {
+    margin: 0rem 0rem 0rem 0rem;
+    padding-inline: 1.6rem;
+   
+}
+
+.section__alert {
+    padding-inline: 1.6rem;
+   
+}
+
+/*=====================DIV_ENCRYPT======================*/
+.main__div__encrypt{
+    padding-inline: 1.6rem;
+}  
+
+/*=====================ASIDE======================*/
+aside{
+    width: 100%;
+    padding: 4rem 0rem 0rem 0rem;
+   
+}
+
+.aside__encrypted_message{
+    width: 32.7rem;
+    padding: 3.2rem 3.2rem 3.2rem 3.2rem;
+    height: 20rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.aside__encrypted_message img{
+    display: none;
+}
+
+.aside__encrypted_message .text_encrypted{
+    word-wrap: break-word;
+}
+
+}
+
+
+
