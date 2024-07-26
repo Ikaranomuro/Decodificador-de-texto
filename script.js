@@ -4,9 +4,14 @@ function verificarTamanhoDaTela() {
     let textAreaValue = document.getElementsByClassName("section__inputText")[0];
 
     if (body.offsetWidth <= 765) {
+        textAreaValue.setAttribute('rows', 16);
         textAreaValue.setAttribute('cols', 20);
-        textAreaValue.setAttribute('maxlength', 100);
+        textAreaValue.setAttribute('maxlength', 200);
         
+    } else{
+        textAreaValue.setAttribute('rows', 14);
+        textAreaValue.setAttribute('cols', 38);
+        textAreaValue.setAttribute('maxlength', 450);
     }
 }
 
