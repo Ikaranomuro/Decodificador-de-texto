@@ -59,6 +59,8 @@ function descriptografar() {
 }
 
 function copyText(){
-    let textEncrypted = document.getElementsByClassName('text_encrypted')[0].textContent;
-    navigator.clipboard.writeText(textEncrypted)
+    let textEncrypted = document.getElementsByClassName('text_encrypted')[0];
+    let textEncryptedCopy = textEncrypted.textContent;
+    navigator.clipboard.writeText(textEncryptedCopy)
+    textEncrypted.textContent = ""
 }   
