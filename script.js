@@ -50,13 +50,21 @@ function criptografar() {
 
 function descriptografar() {
     let textArea = document.getElementsByClassName("section__inputText")[0];
+    let textAreaValue = textArea.value
     let paragrafhDissapear = document.getElementsByTagName("p")[0];
     let textEncrypted = document.getElementsByClassName('text_encrypted')[0];
 
-    if (textEncrypted.textContent == "") {
+    if (textAreaValue != "") {
+        let textEncryptedValue = textAreaValue;
+        textoDescriptografado = textEncryptedValue.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
+        console.log(textoDescriptografado);
+        textArea.value = textoDescriptografado;
+
+    } else if (textEncrypted.textContent == "") {
         console.log("Está vázio");
         paragrafhDissapear.textContent = "Por favor, criptografe um texto, para depois descriptografar";
-    } else {
+    }
+    else {
         let textEncryptedValue = textEncrypted.textContent;
         textoDescriptografado = textEncryptedValue.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
         console.log(textoDescriptografado);

@@ -14,14 +14,15 @@
 <body>
 
     <main>
-    <header>
-    </header>
+        <header>
+        </header>
 
         <section class="main__section__fill">
-            <textarea name="text" class="section__inputText" id="text" rows="14" cols="38" maxlength="372" placeholder="Escreva aqui"></textarea>
-          
-            <div class="section__alert">
-                <img src="./Assets/bi_exclamation-circle-fill.png" alt="">
+            <textarea name="text" class="section__inputText" id="text" rows="14" cols="38" maxlength="372"
+                placeholder="Escreva aqui"></textarea>
+
+            <div class="section__IconAlert">
+                <img src="./Assets/bi_exclamation-circle-fill.png" alt="Um pequeno icone de formato redendo com cor de fundo cinza e em seu centro um sinal de exclamação de cor branca.">
                 <h6>Apenas letras minúsculas e sem acento.</h6>
             </div>
             <div class="main__div__encrypt">
@@ -29,23 +30,24 @@
                 <button onclick="descriptografar()">Descriptografar</button>
             </div>
         </section>
-        
+
         <aside>
-                <div class="aside__encrypted_message">
-                    <img src="./Assets/Person.svg" alt="" class="aside__Person_image">
-                   <div>
-                       <h2>Nenhuma mensagem encontrada</h2>
-                       <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-                       <p class="text_encrypted"></p>
-                    </div>
-                    <div>
-                        <button onclick="copyText()" class="button_Copy">copiar</button>
-                    </div>
+            <div class="aside__encrypted_message">
+                <img src="./Assets/Person.svg" alt="" class="aside__Person_image">
+                <div class="aside_encryped_message_box">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <p class="text_encrypted"></p>
                 </div>
-           
+                <div>
+                    <button onclick="copyText()" class="button_Copy">copiar</button>
+                </div>
+            </div>
+
         </aside>
     </main>
 </body>
 
 <script src="./script.js"></script>
+
 </html>

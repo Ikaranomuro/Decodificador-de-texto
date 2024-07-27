@@ -97,7 +97,7 @@ section .section__inputText {
 
 }
 
-.section__alert {
+.section__IconAlert{
     display: flex;
     align-items: center;
     padding: 5rem 0rem 0rem 16rem;
@@ -105,7 +105,7 @@ section .section__inputText {
     margin-top: 1rem;
 }
 
-.section__alert h6 {
+.section__IconAlert h6 {
     font-size: 1.2rem;
     color: var(--gray400);
     font-family: "Inter", sans-serif;
@@ -179,6 +179,12 @@ aside {
 
 }
 
+.aside__encrypted_message .aside_encryped_message_box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
 .aside__encrypted_message h2 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -219,7 +225,8 @@ aside {
 }
 
 .aside__encrypted_message .text_encrypted {
-    padding: 3.2rem 0rem 0rem 0rem;
+    padding: 3.2rem 0rem 3.2rem 0rem;
+    text-align: start;
 }
 
 @media (max-width:1024px) {
@@ -241,7 +248,7 @@ aside {
         background-color: (var(--ligthBlue100));
     }
 
-    .section__alert {
+    .section__IconAlert {
         padding: 8rem 0rem 0rem 4rem;
         gap: 0.8rem;
     }
@@ -271,7 +278,6 @@ aside {
     }
 
     .aside__encrypted_message .button_Copy {
-
         border-radius: 2.4rem;
         font-family: "Inter", sans-serif;
         font-weight: 400;
@@ -317,7 +323,7 @@ aside {
 
     }
 
-    .section__alert {
+    .section__IconAlert {
         padding-inline: 1.6rem;
 
     }
@@ -340,7 +346,7 @@ aside {
         display: flex;
         justify-content: space-between;
         width: 32.7rem;
-        padding: 0rem 3.2rem 3.2rem 3.2rem;
+        padding: 3.2rem 3.2rem 3.2rem 3.2rem;
     }
 
     .aside__encrypted_message .button_Copy {
@@ -353,6 +359,8 @@ aside {
 
     .aside__encrypted_message .text_encrypted {
         word-wrap: break-word;
+        padding: 0rem 0rem 0rem 0rem;
+
     }
 
 }
