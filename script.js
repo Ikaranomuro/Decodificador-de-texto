@@ -6,12 +6,12 @@ function verificarTamanhoDaTela() {
     if (body.offsetWidth <= 765) {
         textAreaValue.setAttribute('rows', 16);
         textAreaValue.setAttribute('cols', 20);
-        textAreaValue.setAttribute('maxlength', 200);
-        
-    } else{
+        textAreaValue.setAttribute('maxlength', 256);
+
+    } else {
         textAreaValue.setAttribute('rows', 14);
         textAreaValue.setAttribute('cols', 38);
-        textAreaValue.setAttribute('maxlength', 450);
+        textAreaValue.setAttribute('maxlength', 372);
     }
 }
 
@@ -41,8 +41,9 @@ function criptografar() {
         buttonCopy.style.display = "block";
         textoCriptografado = textAreaValue.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
         textEncrypted.textContent = `${textoCriptografado}`;
-        textArea.value = "" 
+        textArea.value = ""
     }
+
 
 }
 
@@ -51,21 +52,24 @@ function descriptografar() {
     let textArea = document.getElementsByClassName("section__inputText")[0];
     let paragrafhDissapear = document.getElementsByTagName("p")[0];
     let textEncrypted = document.getElementsByClassName('text_encrypted')[0];
- 
-    if(textEncrypted.textContent == ""){
+
+    if (textEncrypted.textContent == "") {
         console.log("Está vázio");
         paragrafhDissapear.textContent = "Por favor, criptografe um texto, para depois descriptografar";
-    } else{
+    } else {
         let textEncryptedValue = textEncrypted.textContent;
         textoDescriptografado = textEncryptedValue.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
         console.log(textoDescriptografado);
         textArea.value = textoDescriptografado;
     }
+
+
 }
 
-function copyText(){
+function copyText() {
     let textEncrypted = document.getElementsByClassName('text_encrypted')[0];
     let textEncryptedCopy = textEncrypted.textContent;
     navigator.clipboard.writeText(textEncryptedCopy)
     textEncrypted.textContent = ""
-}   
+}
+
