@@ -11,8 +11,8 @@ Nosso objetivo é criar uma simples página com uma função de criptografar e d
 
 Fique a vontade para testar o projeto tanto sua funcionalidade, quanto sua responsividade, mas para que ele funcione corretamente, é necessário letras em minusculo e nada de acentos.
 https://ikaranomuro.github.io/Decodificador-de-texto/
-![image](https://github.com/user-attachments/assets/77b27cd0-beae-4f41-8eb1-3ca1fda563ca)
 
+![image](https://github.com/user-attachments/assets/77b27cd0-beae-4f41-8eb1-3ca1fda563ca)
 
 aqui algumas sugestões de textos 📝:
 
