@@ -9,7 +9,7 @@ Nosso objetivo é criar uma simples página com uma função de criptografar e d
 - a letra "o" se torna "ober"
 - a letra "u" se torna "ufat"
 
-Fique a vontade para testar o projeto tanto sua funcionalidade, quanto sua responsividade, mas para que ele funcione corretamente, é necessário letras em minusculo e nada de acentos.
+Fique a vontade para testar o projeto, tanto sua funcionalidade, quanto sua responsividade, mas AVISO, para que ele funcione corretamente, é necessário letras em minusculo e nada de acentos.
 https://ikaranomuro.github.io/Decodificador-de-texto/
 
 ![image](https://github.com/user-attachments/assets/77b27cd0-beae-4f41-8eb1-3ca1fda563ca)
@@ -17,10 +17,10 @@ https://ikaranomuro.github.io/Decodificador-de-texto/
 aqui algumas sugestões de textos 📝:
 
 1° texto - "hoje o dia esta belo"  <br>
-<strong> resultado esperado - "hoberjenter ober dimesai enterstai benterlober"
+<strong> resultado esperado - "hoberjenter ober dimesai enterstai benterlober" </strong>
 
 2° texto - "assisti ao filme do deadpool e foi incrivel"  <br>
-<strong> resultado esperado - "aissimesstimes aiober fimeslmenter dober denteraidpoberoberl enter foberimes imesncrimesventerl"
+<strong> resultado esperado - "aissimesstimes aiober fimeslmenter dober denteraidpoberoberl enter foberimes imesncrimesventerl" </strong>
 
 3° texto - "essa e minha senha "senha criptografada", mas vou criptografar para ninguem saber hehe" <br>
-<strong> resultado esperado - "enterssai enter mimesnhai senternhai "senternhai crimesptobergraifaidai", mais voberufat crimesptobergraifair pairai nimesngufatenterm saibenterr henterhenter"
+<strong> resultado esperado - "enterssai enter mimesnhai senternhai "senternhai crimesptobergraifaidai", mais voberufat crimesptobergraifair pairai nimesngufatenterm saibenterr henterhenter" </strong>
