@@ -9,8 +9,10 @@ Nosso objetivo é criar uma simples página com uma função de criptografar e d
 - a letra "o" se torna "ober"
 - a letra "u" se torna "ufat"
 
-Fique a vontade para testar o projeto, mas para que ele funcione corretamente, é necessário letras em minusculo e nada de acentos.
+Fique a vontade para testar o projeto tanto sua funcionalidade, quanto sua responsividade, mas para que ele funcione corretamente, é necessário letras em minusculo e nada de acentos.
 https://ikaranomuro.github.io/Decodificador-de-texto/
+![image](https://github.com/user-attachments/assets/77b27cd0-beae-4f41-8eb1-3ca1fda563ca)
+
 
 aqui algumas sugestões de textos 📝:
 
