@@ -58,19 +58,12 @@ function descriptografar() {
         let textEncryptedValue = textAreaValue;
         textoDescriptografado = textEncryptedValue.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
         console.log(textoDescriptografado);
-        textArea.value = textoDescriptografado;
+        textEncrypted.textContent = textoDescriptografado;
 
-    } else if (textEncrypted.textContent == "") {
+    } else if (textEncrypted.textContent == ""){
         console.log("Está vázio");
         paragrafhDissapear.textContent = "Por favor, criptografe um texto, para depois descriptografar";
     }
-    else {
-        let textEncryptedValue = textEncrypted.textContent;
-        textoDescriptografado = textEncryptedValue.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
-        console.log(textoDescriptografado);
-        textArea.value = textoDescriptografado;
-    }
-
 
 }
 
@@ -79,5 +72,6 @@ function copyText() {
     let textEncryptedCopy = textEncrypted.textContent;
     navigator.clipboard.writeText(textEncryptedCopy)
     textEncrypted.textContent = ""
+    alert("Copiado para área de transferência, pode colar o texto para descriptografar")
 }
 

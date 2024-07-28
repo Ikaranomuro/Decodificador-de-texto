@@ -336,8 +336,8 @@ aside {
     /*=====================ASIDE======================*/
     aside {
         width: 100%;
-        padding: 4rem 0rem 0rem 0rem;
         align-items: center;
+        padding-inline: 2rem;
 
 
     }
@@ -345,7 +345,7 @@ aside {
     .aside__encrypted_message {
         display: flex;
         justify-content: space-between;
-        width: 32.7rem;
+        width: 100%;
         padding: 3.2rem 3.2rem 3.2rem 3.2rem;
     }
 
