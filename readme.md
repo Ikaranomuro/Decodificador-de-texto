@@ -1,7 +1,7 @@
 Olá!
-Esse projeto é baseado em um desafio proporcionado pelo OracleOne!
+Esse projeto é baseado em um desafio proporcionado pelo OracleOne! 🚀
 
-Nosso objetivo é criar uma simples página com uma função de criptografar e discriptografar os textos, por meio das vogais 'A' 'E' 'I' 'O' 'U', usando a seguinte lógica: 
+Nosso objetivo é criar uma simples página com uma função de criptografar e discriptografar os textos, por meio das vogais 'A' 'E' 'I' 'O' 'U', usando a seguinte lógica 💡: 
 
 - a letra "a" se torna "ai"
 - a letra "e" se torna "enter"
@@ -9,10 +9,10 @@ Nosso objetivo é criar uma simples página com uma função de criptografar e d
 - a letra "o" se torna "ober"
 - a letra "u" se torna "ufat"
 
-Fique a vontade para testar o projeto, mas para que ele funcione corretamente, é necessário letras em minusculo e acentos.
+Fique a vontade para testar o projeto, mas para que ele funcione corretamente, é necessário letras em minusculo e nada de acentos.
 https://ikaranomuro.github.io/Decodificador-de-texto/
 
-aqui algumas sugestões de textos:
+aqui algumas sugestões de textos 📝:
 
 1° texto - "hoje o dia esta belo"  <br>
 <strong> resultado esperado - "hoberjenter ober dimesai enterstai benterlober"
